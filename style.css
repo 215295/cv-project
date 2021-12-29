@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(101, 133, 101);
+
+}
+.container{
+    background-color: aquamarine;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+width: 100px;
+height: 120px;
+border: solid white 1px;
+border-radius: 50%;
+float: left;
+
+}
+.header-bio{
+float: left;
+padding: 30px;
+color: teal;
+
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+hr{
+    border: solid black 3px;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.clear-div{
+    clear: both;
+}
+.personal-information{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+ float: left;
+ color: teal;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+h2{
+    color: teal;
+}
+.left{
+    float: left;
+width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+
+.bottom-footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+}
+.bottom-footer a{
+   padding: 20px;
+   text-decoration: none;
+color: white;
+ 
+    }
+    .bottom-footer p{
+padding-top:20px ;
+
+    }
+    .bottom-footer a:hover{
+      
+        text-decoration: underline;
+     color: rgb(136, 1, 1);
+      
+         }
